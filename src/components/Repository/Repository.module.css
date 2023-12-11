@@ -1,0 +1,37 @@
+.repo {
+    background-color: var(--planoSemDestaque);
+    border-radius: 0.5rem;
+    border: 2px solid var(--letrasClaras);
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.container a {
+    background-color: var(--planoEmDestaque);
+    border: none;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: 1rem;
+    font-size: 16px;
+    position: relative;
+    padding: 0.7rem 1rem;
+}
+
+.container a:hover {
+    opacity: 1;
+}
+
+.container a svg {
+    position: absolute;
+    right: 10px;
+}

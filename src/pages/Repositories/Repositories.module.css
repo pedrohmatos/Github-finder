@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repositories button {
+    background-color: var(--corMarcante);
+    border: none;
+    font-size: 16px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 7px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.repositories button:hover {
+    opacity: 1;
+}
+
+.repoList {
+    margin-top: 2rem;
+    background-color: var(--planoEmDestaque);
+    padding: 1.5rem;
+    border-radius: 12px;
+    list-style: none;
+}

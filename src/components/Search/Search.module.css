@@ -1,0 +1,33 @@
+.search {
+    background-color: var(--planoEmDestaque);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.search p {
+    color: var(--meioClara);
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container input,
+.container button {
+    padding: 0.6rem;
+    border-radius: 3px;
+    border: none;
+    color: var(--planoEmDestaque);
+}
+
+.container button {
+    cursor: pointer;
+    background-color: var(--planoSemDestaque);
+}

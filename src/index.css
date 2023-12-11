@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --letrasClaras: #f8f8f8;
+    --meioClara: #c6cfff;
+    --corMarcante: #644aff;
+    --corMarcante02: #00a592;
+    --planoEmDestaque: #2b3566;
+    --planoSemDestaque: #0e1129;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: var(--letrasClaras);
+}
+
+body {
+    background-color: var(--planoSemDestaque);
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+}

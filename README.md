@@ -11,7 +11,7 @@ Uma interface de fácil acesso para buscar pelo perfil de usuários do GitHub e 
 
 ## Design do Projeto
 
-![Tela inicial](/public/assets/home01.png)
+![Tela inicial](/public/assets/home.png)
 ![Tela inicial com informacoes](/public/assets/home02.png)
 ![Tela dos repositorios](/public/assets/repositories.png)
 
